@@ -1,6 +1,6 @@
 module github.com/jesseduffield/lazygit
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/OpenPeeDeeP/xdg v1.0.0
@@ -30,46 +30,47 @@ require (
 	github.com/samber/lo v1.31.0
 	github.com/sanity-io/litter v1.5.2
 	github.com/sasha-s/go-deadlock v0.3.1
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.3
 	github.com/spf13/afero v1.9.5
 	github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad
 	github.com/stefanhaller/tcell/v2 v2.6.2-0.20230806061358-2dfa11eddb68
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.11.1
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778
-	golang.org/x/exp v0.0.0-20220318154914-8dddf5d87bd8
+	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f
 	gopkg.in/ozeidan/fuzzy-patricia.v3 v3.0.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
+	github.com/cyphar/filepath-securejoin v0.6.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
-	github.com/go-git/go-billy/v5 v5.0.0 // indirect
+	github.com/go-git/go-billy/v5 v5.9.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/hpcloud/tail v1.0.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/onsi/ginkgo v1.10.3 // indirect
-	github.com/onsi/gomega v1.7.1 // indirect
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/xanzy/ssh-agent v0.2.1 // indirect
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.12.0 // indirect
-	golang.org/x/term v0.12.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/crypto v0.50.0 // indirect
+	golang.org/x/net v0.53.0 // indirect
+	golang.org/x/sys v0.43.0 // indirect
+	golang.org/x/term v0.42.0 // indirect
+	golang.org/x/text v0.36.0 // indirect
+	gopkg.in/fsnotify.v1 v1.4.7 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
